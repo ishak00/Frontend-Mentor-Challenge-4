@@ -5,7 +5,8 @@ let closeIcon = document.querySelector(".closeIcon");
 iconMenu.addEventListener("click", () => {
   navList.classList.toggle("hidden");
   iconMenu.style.display = "none";
-  closeIcon.src = "/assets/images/icon-menu-close.svg";
+  closeIcon.src =
+    "/Frontend-Mentor-Challenge-4/assets/images/icon-menu-close.svg";
   closeIcon.style.display = "block";
 });
 
